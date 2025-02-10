@@ -1,0 +1,67 @@
+/* Archivo: Página 1.css */
+@font-face
+{
+    font-family:"Graduate";
+    src: url(Graduate-Regular.ttf)
+    format('truetype');
+}
+pre 
+{
+    display: inline-block;
+}
+#a
+{
+  font:bold 30px Verdana;
+  color: black;
+}
+#p1 
+{
+    font-family: "Graduate";
+    font-size: 30px;
+    color:rgb(3, 3, 3);
+}
+#p2
+{
+    width: 40%;
+    height: 270px;
+    border: 1px solid wheat;
+    overflow: scroll;
+}
+#p3
+{
+    width: 40%;
+    height: 270px;
+    border: 1px solid wheat;
+    overflow: scroll;
+}
+
+pre {
+    display: inline-block;
+}
+#a {
+    font: bold 30px Verdana;
+    color: black;
+}
+
+div {
+    border-style: solid;
+    border-width: 2px;
+    margin: 0.5% 0px 1000px 550px;
+    padding: 10px;
+    background-color: #ffefd5;
+    width: 300px;
+    height: 200px;
+}
+#caja1 {
+    border-color: wheat;
+    float: left;
+    overflow: visible;
+}
+.limpiador {
+    clear: both;
+    padding: 0;
+    width: 0;
+    height: 0;
+    border-style: none;
+}
+
